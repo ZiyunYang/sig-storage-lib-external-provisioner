@@ -36,3 +36,6 @@ clean:
 	rm -rf ./examples/hostpath-provisioner/vendor
 	rm -rf ./examples/hostpath-provisioner/Gopkg.lock
 	rm -rf ./test/e2e/kubernetes
+
+nfs-client:
+	${MAKE} -C examples/nfs-provisioner image

@@ -1,0 +1,3 @@
+FROM busybox
+COPY nfs-client-provisioner /
+CMD ["/nfs-client-provisioner"]
